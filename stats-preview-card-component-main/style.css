@@ -1,0 +1,101 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.attribution{
+    background-color: darkgray;
+    border: 0.5px solid darkgray;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(14,14,14);
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+    color: rgb(152,150,173);
+}
+
+
+#border{
+    width: 1350px;
+    height: auto;
+    border: 1px solid rgb(28,25,56);
+    background-color: rgb(10,12,27);
+}
+
+.card{
+    margin: 80px;
+    background-color: rgb(28,25,56);
+    border-radius: 10px;
+    color: white;
+    border: 1px solid rgb(28,25,56) ;
+    display: flex;
+}
+
+.text{
+    margin-left: 100px;
+    margin-right: 100px; 
+    margin-top: 60px;
+}
+
+
+.subheading{
+    margin-top: 60px;
+    display: flex;
+    text-align: justify;
+    justify-content: space-between;
+    /* align-content: space-between; */
+    align-content: flex-start;
+}
+
+
+.featres{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.featres p {
+    font-size: 15px;
+}
+
+.image{
+    background-color: rgba(174,98,220,1);
+}
+
+
+/* media quaries */
+
+
+@media only screen and (max-width: 375px) {
+    body {
+      background-color: lightblue;
+    }
+
+    h1{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .text p{
+        text-align: center;
+        font-size: 25px;
+        line-height: 2.5rem;
+    }
+
+    #border{
+        width: fit-content;
+    }
+    .card{
+        flex-direction: column-reverse;
+        width: min-content;
+        text-align:unset;
+    }
+    .subheading{
+        flex-direction: column;
+        text-align: center;
+    }
+  }
