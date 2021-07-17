@@ -66,6 +66,11 @@ p{
     background-color: rgba(174,98,220,1);
 }
 
+.image img{
+    display: block;
+    margin: auto;
+    opacity: 0.5;
+}
 
 /* media quaries */
 
