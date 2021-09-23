@@ -1,0 +1,65 @@
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+font-family: 'Lexend Deca', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+f
+
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+#card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#Sedan,#Suv,#Luxury{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+    width: 300px;
+    height: 300px;
+    align-content: space-between;
+    padding: 90px;
+}
+
+
+#Sedan{
+    background-color: #E28424;
+}
+
+#Suv{
+    background-color: #006973;
+}
+
+#Luxury{
+    background-color: #01413F;
+}
+
+button{
+    margin: 50px;
+    width: 150px;
+    border-radius: 15px;
+    font-size: larger;
+}
+
+.attribution{
+    display: flex;
+    align-content: center;
+}
+
+.bar{
+    background-color: whitesmoke;
+    width: 500x;
+    color: #E28424;
+    font-size: 30px;
+
+}
